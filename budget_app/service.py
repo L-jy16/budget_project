@@ -5,7 +5,11 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
-from budget_app.decorators import AppError
+from budget_app.decorators import (
+    AppError,
+    log_execution,
+    measure_time,
+)
 from budget_app.models import Transaction
 from budget_app.repository import DataRepository
 
@@ -559,6 +563,8 @@ class BudgetService:
     # Import
     # --------------------------------------------------
 
+    @log_execution
+    @measure_time
     def import_csv(
         self,
         input_path: str
@@ -639,6 +645,8 @@ class BudgetService:
     # Export
     # --------------------------------------------------
 
+    @log_execution
+    @measure_time
     def export_csv(
         self,
         output_path: str,
