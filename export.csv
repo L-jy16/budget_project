@@ -1,1 +1,7 @@
 date,type,category,amount,memo,tags
+2026-08-25,income,food,10000,저녁,meal
+2026-08-23,expense,hobby,12000,굿즈,hobby
+2026-08-25,income,salary,1000000,월,income
+2026-08-22,income,salary,100000,용돈,income
+2026-08-25,expense,transport,100000,교통비,bus
+2026-08-25,expense,food,15000,lunch,meal

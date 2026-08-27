@@ -1,0 +1,6 @@
+{"id": "TX-098CE71A", "type": "expense", "date": "2026-08-25", "amount": 15000, "category": "food", "memo": "lunch", "tags": ["meal"]}
+{"id": "TX-FF3F449E", "type": "expense", "date": "2026-08-25", "amount": 100000, "category": "transport", "memo": "교통비", "tags": ["bus"]}
+{"id": "TX-8C516F7D", "type": "income", "date": "2026-08-22", "amount": 100000, "category": "salary", "memo": "용돈", "tags": ["income"]}
+{"id": "TX-30E96C21", "type": "income", "date": "2026-08-25", "amount": 1000000, "category": "salary", "memo": "월", "tags": ["income"]}
+{"id": "TX-F316FEAF", "type": "expense", "date": "2026-08-23", "amount": 12000, "category": "hobby", "memo": "굿즈", "tags": ["hobby"]}
+{"id": "TX-5DEB4885", "type": "expense", "date": "2026-08-25", "amount": 10000, "category": "food", "memo": "저녁", "tags": ["meal"]}
